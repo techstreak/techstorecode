@@ -1,0 +1,37 @@
+/* src/css/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .welcome-message {
+    font-size: 2rem;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  .info-text {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 20px;
+  }
+  
+  .product-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  

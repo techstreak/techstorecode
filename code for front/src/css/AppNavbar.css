@@ -1,0 +1,77 @@
+/* General Navbar Styles */
+.app-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Navbar Actions for Logged In Users */
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navbar Links */
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #007bff;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-username {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .app-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-actions,
+    .navbar-collapse {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-link {
+      margin: 10px 0;
+    }
+  }
+  
